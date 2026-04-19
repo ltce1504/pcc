@@ -47,7 +47,7 @@ int isEmpty(node** stack) { return *stack == NULL; }
 
 void push(node** stack, int data)
 {
-    if (insertBeforeHead(stack, data) == NULL) {
+    if (insertBeforeHead(stack, data) == -1) {
         printf("Stack Overflow!\n");
     }
 }
