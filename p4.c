@@ -12,16 +12,7 @@
                 {
                     printf("\n Overflow");
                 }
-            else if(F==-1 && R==-1)/*output will be 0, 0 after first insertion of element 10 at position 0 because both F and R are -1
-             and after that output will be 0, 1 after second insertion of element 20 at position 1 because F is already 0 and R is -1 
-             and after that output will be 0, 2 after third insertion of element 30 at position 2 because F is already 0 and R is -1 
-             and after that output will be 0, 3 after fourth insertion of element 40 at position 3 because F is already 0 and R is -1 
-             and after that output will be 0, 4 after fifth insertion of element 50 at position 4 because F is already 0 and R is -1 
-             and after that output will be 0, 5 after sixth insertion of element 60 at position 5 because F is already 0 and R is -1 
-             and after that output will be 0, 5 after seventh insertion of element 70 at position 5 because F is already 0 and R is 5 
-             and after that output will be 0, 5 after eighth   insertion of element 80 at position 5 because F is already 0 and R is 5 
-             and after that output will be 0, 5 after ninth insertion of element 90 at position 5 because F is already 0 and R is 5 
-             and after that output will be 0, 5 after tenth insertion of element 100 at position 5 because F is already 0 and R is 5*/
+            else if(F==-1 && R==-1)
                 {
                     F=R=0;
                 }
