@@ -69,27 +69,7 @@
                 }
         }
 
-/*basic operation of queue
-1. Insert: This operation adds an element to the rear of the queue. If the rear index (R) reaches the maximum size (Max - 1), it indicates that the queue is full, and an overflow message is displayed.
-2. Delete: This operation removes an element from the front of the queue. If the front index (F) is -1 or exceeds the rear index (R), it indicates that the queue is empty, and an underflow message is displayed. Otherwise, the element at the front is removed, and the front index is incremented.
-3. Display: This operation prints the elements in the queue from the front index (F)*/
 
-/*Alogithm of main function
-step 1: Initialize the queue array and front and rear indices to -1.
-step 2: Display a menu with options for insert, delete, display, and exit.
-step 3: Read the user's choice.
-step 4: Based on the user's choice, call the appropriate function (insert, delete, display).
-step 5: If the user chooses exit, terminate the program.
-step 6: If an invalid choice is entered, display an error message.
-step 7: Repeat steps 2-6 until the user chooses to exit.
-
-algorithm of insert
-step 1: Read the element to be inserted.
-step 2: Check if the rear index (R) is equal to Max - 1. If so, display an overflow message and return.
-step 3: If both front (F) and rear (R) are -1, set both F and R to 0.
-step 4: Otherwise, increment the rear index (R).
-step 5: Insert the element at the position indicated by the rear index (R).
-step 6: Display a success message indicating that the element has been inserted.
 
 algorithm for delete
 step 1: Check if the front index (F) is -1 or exceeds the rear index (R). If so, display an underflow message and return.
