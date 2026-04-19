@@ -9,6 +9,11 @@ struct Node
 struct Node* createNode(int data) 
     {
     struct Node* newNode = (struct Node*)malloc(sizeof(struct Node));
+    if (newNode == NULL) 
+        { 
+            printf("Memory Overflow: No space available!\n");
+            exit(1); // Exit the program because we can't create data
+        }
     newNode->data = data;
     newNode->next = NULL;
     return newNode;
